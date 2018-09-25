@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/css/Custom.css">
+</head>
+<body>
+    <h1 class="z">Register With Us</h1>
+    <a href="Home.html"><button class="btn btn-primary">Home</button></a>
+    <a href="gallery.html"><button class="btn btn-success">Gallery</button></a>
+    <a href="Contact%20Us.html"><button class="btn btn-danger">Contact Us</button></a>
+    <a href="Register.html"><button class="btn btn-secondary" disabled>Register</button></a>
+    <a href="Log%20In.html"><button class="btn btn-info">Log In</button></a>
+    <hr>
+    <form action="">
+        <label for="">Name:</label><br>
+        <input type="text" placeholder="Name Here" name="name" required class="x"><br>
+
+        <label for="">Email:</label><br>
+        <input type="email" placeholder="Email Here" name="email" required disabled  class="x"><br>
+
+        <label for="">Phone number:</label><br>
+        <input type="number" placeholder="Number Here" name="number" required><br>
+
+        <label for="">D.O.B:</label> <br>
+        <input type="date" name="date" class="x"><br>
+
+        <label for="">Gender:</label><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other<br>
+
+        <label for="">Comment:</label><br>
+        <textarea placeholder="Comment Here" name="comment" class="x"></textarea><br>
+
+        <input type="submit" value="Sign Up" name="submit" class="y">
+        <input type="reset" value="Refresh" name="clear" class="z">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body
+{
+    background-image: linear-gradient(to right, #ffaea7,#c4b9ff,#bdffbf);
+}
+#y
+{
+    background-image:url("../../Resources/cocktail.jpeg");
+    background-size: 100%;
+}
+.v
+{
+    text-decoration: underline;
+    text-align: center;
+    color: #ff2044;
+}
+.c
+{
+    color: #ff24f0;
+}
+.m
+{
+    text-align: center;
+    text-decoration: underline;
+}
+form
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-right:30%;
+    background-color: #9fff8a;
+    padding: 20px;
+}
+.x
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #ff5c72;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.y
+{
+    margin: 20px;
+    width: 35%;
+}
